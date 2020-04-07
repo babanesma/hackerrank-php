@@ -1,0 +1,22 @@
+{
+    "name": "babanesma/hakerrank-php",
+    "description": "Some Hackerrank problems using php",
+    "authors": [
+        {
+            "name": "babanesma",
+            "email": "adham.sa3d@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hackerrank\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "scripts": {
+        "test" : "phpunit ./tests"
+    }
+}
