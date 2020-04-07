@@ -2,26 +2,26 @@
 
 All challenges are found [here](https://www.hackerrank.com/interview/interview-preparation-kit/dynamic-programming/challenges)
 
-## 1. Max Array Sum [challenge] (https://www.hackerrank.com/challenges/max-array-sum/problem)
+## 1. Max Array Sum [challenge](https://www.hackerrank.com/challenges/max-array-sum/problem)
 
 The solution is very simple , just initiate 2 zero sums 
-- $excl is the maximum sum excluding the previous element 
-- $incl is the maximum sum including the the previous element
+- `$excl` is the maximum sum excluding the previous element 
+- `$incl` is the maximum sum including the the previous element
 At the end of the loop return max of incl and excl.
 More info (here)[https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/]
 
 ## 2. Decibinary Numbers [challenge](https://www.hackerrank.com/challenges/decibinary-numbers/problem)
 
 This is very hard and complicated question. Here is how I thought about it.
-According to the question description , a number in the decibinary system should be interpreted with the following equation .
+According to the question description, a number in the decibinary system should be interpreted with the following equation.
 
-    2016<sub>decibinary</sub> = 2*2<sup>3</sup> + 0 * 2<sup>2</sup> + 1 * 2<sup>1</sup>+ 6 * 2<sup>0</sup> = (24)<sub>decimal</sub>
+2016<sub>decibinary</sub> = 2*2<sup>3</sup> + 0 * 2<sup>2</sup> + 1 * 2<sup>1</sup>+ 6 * 2<sup>0</sup> = (24)<sub>decimal</sub>
 
 But there is a problem , 2008 in decibinary also can be interpreted as 24 in decimal.
 
 So we are going to order based on their decimal value , then based on decibinary value
 
-Here is the list of first 20 number .
+Here is the list of first 20 number.
 
 x | Decibinary  | Decimal 
 --|-------------|---------
